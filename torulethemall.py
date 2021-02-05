@@ -100,7 +100,7 @@ if __name__ == '__main__':
 
 	warnings.simplefilter("ignore")
 
-	parser = argparse.ArgumentParser(description='Context-aware and Personalized ITS.')
+	parser = argparse.ArgumentParser(description='CERVA')
 	parser.add_argument('--times', metavar='t', type=int, nargs=1, default=20, action='store', help='Quantity of times executed')
 	parser.add_argument('--cities', metavar='c', type=str, nargs='*', default=['austin'], action='store', help='Lower case city name')
 	parser.add_argument('--cd', help='Clean data', action='store_true')

@@ -35,6 +35,13 @@ Simulate the available scenarios.
 - pl: Plotter
 Plot the generated results.
 
+
+To simulate execute the next command.
+
+```bash
+python torulethemall.py --si --times=20 --cities='chicago'
+```
+
 ### Requirements
 
 - [Python 2.7](https://www.python.org/downloads/)
