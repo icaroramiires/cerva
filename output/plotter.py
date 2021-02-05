@@ -35,6 +35,7 @@ class Plotter:
 
 
 	def mean_confidence_interval(self, data, confidence=0.95):
+		# Ref: https://stackoverflow.com/questions/15033511/compute-a-confidence-interval-from-sample-data
 		a = 1.0 * np.array(data)
 		n = len(a)
 		m, se = np.mean(a), np.std(a)

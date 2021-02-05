@@ -56,6 +56,8 @@ class Contextual:
 
 	def create_kde(self, contexts, key, last_window):
 
+		# Ref: https://stackoverflow.com/questions/31525393/how-to-plot-kernel-density-estimation-kde-and-zero-crossings-for-3d-data-in-py/31528905#31528905
+
 		if '{0}:{1}'.format(key, last_window) not in self.kernels:
 
 			lats, lons = [], []
