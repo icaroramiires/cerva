@@ -53,3 +53,5 @@ pip install -r requirements.txt
 ```
 
 All requirements are listed in requirements.txt file.
+
+- [SUMO 0.25.0](https://sourceforge.net/projects/sumo/files/sumo/version%200.25.0/)
