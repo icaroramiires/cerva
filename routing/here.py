@@ -17,7 +17,7 @@ DAYS = {'0': 'monday',
 class Here:
 
 
-	def __init__(self, APP_ID="L0OiyTZMZNaKGjq4TuUM", APP_CODE="46sQDBYcfGZgoDzpRM8_XA"):
+	def __init__(self, APP_ID="", APP_CODE=""):
 
 		self.APP_ID = APP_ID
 		self.APP_CODE = APP_CODE

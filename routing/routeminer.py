@@ -17,10 +17,10 @@ import matplotlib.pyplot as plt
 
 
 # HERE
-APP_ID = 'L0OiyTZMZNaKGjq4TuUM'
-APP_CODE = '46sQDBYcfGZgoDzpRM8_XA'
+APP_ID = ''
+APP_CODE = ''
 
-MAPS_KEYS = ['AIzaSyCkUOdZ5y7hMm0yrcCQoCvLwzdM6M8s5qk', 'AIzaSyBs4T5Ogi52_zHcZh6jaCkqcSRO3W3RmAI']
+MAPS_KEYS = ['', '']
 
 COORDS_TEST = [[41.87789, -87.65074], [41.87792, -87.64957], [41.87793, -87.6484],
 				[41.87796, -87.64724], [41.87799, -87.64403], [41.87802, -87.64258],
